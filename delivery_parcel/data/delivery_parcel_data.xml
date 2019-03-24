@@ -27,7 +27,7 @@
       <field name="list_price">0.0</field>
     </record>
     <record id="delivery_carrier_parcel_us" model="delivery.carrier">
-        <field name="name">Parcel US</field>
+        <field name="name">UPS Parcel Pro</field>
         <field name="product_id" ref="delivery_parcel.product_product_delivery_parcel_us"/>
         <field name="delivery_type">parcel</field>
         <field name="parcel_package_weight_unit">LBS</field>
@@ -36,7 +36,7 @@
         <field name="parcel_passwd">7NW8rQzV63mM4cwkEen@123</field>
        <!--  <field name="ups_shipper_number">031V52</field> -->
         <field name="parcel_access_number">BFC4EED5-48F5-461B-B14A-2C1860EDD3B7</field>
-        <field name="ups_default_packaging_id" ref="parcel_packaging_02"/>
+        <!-- <field name="ups_default_packaging_id" ref="parcel_packaging_02"/> -->
     </record>
  </data>
 </odoo>
