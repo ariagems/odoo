@@ -1,3 +1,2 @@
 # odoo
-
-Feature Branch for UPS Parcel Pro development
+Feature branch for UPS Parcel PRO development
